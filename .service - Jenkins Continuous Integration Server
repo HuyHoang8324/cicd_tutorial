@@ -1,0 +1,14 @@
+[0;1;31m●[0m jenkins.service - Jenkins Continuous Integration Server
+     Loaded: loaded (/lib/systemd/system/jenkins.service; enabled; vendor preset: enabled)
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Sat 2025-06-28 17:12:11 +07; 2min 1s ago
+    Process: 38090 ExecStart=/usr/bin/jenkins [0;1;31m(code=exited, status=1/FAILURE)[0m
+   Main PID: 38090 (code=exited, status=1/FAILURE)
+
+Thg 6 28 17:12:11 b2205984-VirtualBox systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 9.
+Thg 6 28 17:12:11 b2205984-VirtualBox systemd[1]: Stopped Jenkins Continuous Integration Server.
+Thg 6 28 17:12:11 b2205984-VirtualBox systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Start request repeated too quickly.[0m
+Thg 6 28 17:12:11 b2205984-VirtualBox systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+Thg 6 28 17:12:11 b2205984-VirtualBox systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+Thg 6 28 17:12:42 b2205984-VirtualBox systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Start request repeated too quickly.[0m
+Thg 6 28 17:12:42 b2205984-VirtualBox systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+Thg 6 28 17:12:42 b2205984-VirtualBox systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
